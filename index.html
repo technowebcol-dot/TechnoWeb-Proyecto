@@ -52,12 +52,49 @@
     input[type=text],input[type=email],textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
     button{background:var(--accent);border:none;color:#042022;padding:10px 14px;border-radius:10px;cursor:pointer;font-weight:600}
     .meta{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:0.9rem}
-    .logo-img {
-      width: 80px;        
-      height: 80px;
-      border-radius: 50%; 
-      object-fit: cover;
-      
+    /* === Estilo del logo === */
+.logo-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+}
+
+/* === Estilo de la sección de valores corporativos === */
+.valores {
+  background-color: rgba(10, 15, 25, 0.9);
+  color: #fff;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 20px;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+.valores h2 {
+  font-size: 1.8rem;
+  color: #00eaff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.valores ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.valores li {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #00eaff;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  line-height: 1.6;
+}
+
 
   </style>
 </head>
@@ -147,56 +184,7 @@
     </div>
   </div>
 </section>
-        <style>
-  .valores {
-    background: #f3f4f6;
-    padding: 60px 20px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-  }
 
-  .valores h2 {
-    font-size: 2.2rem;
-    color: #0a0a0a;
-    margin-bottom: 40px;
-    border-bottom: 3px solid #00bcd4;
-    display: inline-block;
-    padding-bottom: 10px;
-  }
-
-  .valores-lista {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
-  .valor {
-    background: white;
-    padding: 25px;
-    border-radius: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .valor:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-  }
-
-  .valor h3 {
-    color: #00bcd4;
-    margin-bottom: 10px;
-    font-size: 1.3rem;
-  }
-
-  .valor p {
-    color: #333;
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-</style>
 
         <section class="card" style="margin-top:14px">
           <h2>Calificar — Valoraciones y opiniones</h2>
